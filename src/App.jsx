@@ -1188,3 +1188,4 @@ export default function DuocParking() {
     </div>
   );
 }
+export default DuocParking;
