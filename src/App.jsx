@@ -1048,7 +1048,7 @@ function LoginScreen({ onLogin }) {
 // ════════════════════════════════════════════════════════════════════════════════
 // MAIN APP
 // ════════════════════════════════════════════════════════════════════════════════
-export default function DuocParking() {
+function DuocParking() {
   const [session, setSession] = useState(null); // null = login, {role} = logged in
   const [step, setStep] = useState(0);
   const [account, setAccount] = useState({ name: "", email: "", password: "" });
